@@ -17,6 +17,6 @@ public class ResultActivity extends AppCompatActivity {
         setContentView(binding.getRoot());
         getSupportActionBar().hide();
         Uri imageUri = getIntent().getData();
-        binding.image.setImageURI(imageUri);
+        binding.image.setImageURI(imageUri); // or you can use getIntent().getData() instead of imageUri
     }
 }
