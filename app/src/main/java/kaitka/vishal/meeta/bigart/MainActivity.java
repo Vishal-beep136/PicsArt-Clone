@@ -27,7 +27,7 @@ import kaitka.vishal.meeta.bigart.databinding.ActivityMainBinding;
 public class MainActivity extends AppCompatActivity {
 
     ActivityMainBinding binding;
-    int IMAGE_REQUEST_CODE = 18;
+    int IMAGE_REQUEST_CODE = 2;
     int CAMERA_REQUEST_CODE = 14;
     int RESULT_CODE = 200;
 
