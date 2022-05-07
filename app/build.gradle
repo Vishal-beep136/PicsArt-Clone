@@ -44,18 +44,13 @@ dependencies {
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
-    // DS Photo Editor SDK
-
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-
-    implementation(name:'ds-photo-editor-sdk-v10', ext:'aar')
-
-
-
-    // SDK related dependencies
-
     implementation 'androidx.appcompat:appcompat:1.1.0'
 
+    // DS Photo Editor SDK
+    implementation(name:'ds-photo-editor-sdk-v10', ext:'aar')
+
+ 
     implementation 'io.reactivex.rxjava2:rxjava:2.1.0'
 
     implementation 'io.reactivex.rxjava2:rxandroid:2.0.1'
